@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Flight Price Prediction</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Flight Price Prediction</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="predict.html">Predict</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Predict Drug</h2>
+		<form action="result.html">
+			<label for="airline">Airline:</label>  &nbsp
+			<select id="airline" name="airline" required>
+				<option value="Air Asia">Air Asia</option>
+				<option value="Indigo">Indigo</option>
+				<option value="spice jet">spice jet</option>
+			</select>
+			<label for="source">Source:</label>
+			<select id="source" name="source" required>
+				<option value="chennai">chennai</option>
+				<option value="Banglore">Banglore</option>
+				<option value="Madurai">Madurai</option>
+			</select>&nbsp
+			<label for="Destination">Source:</label>
+			<select id="Destination" name="Destination" required>
+				<option value="chennai">chennai</option>
+				<option value="Banglore">Banglore</option>
+				<option value="Madurai">Madurai</option>
+			</select><br>
+			<label for="Departure date">Departure date:</label>
+			<input type="Date" id="Departure date" name="Departure date" required>&nbsp&nbsp
+			<label for="Departure Month">Departure Month:</label>
+			<input type="Month" id="Departure Month" name="Departure Month" required>&nbsp&nbsp
+			<label for="Departure Year">Departure Year:</label>
+			<input type="Year" id="Departure Year" name="Departure Year" required><br><br>
+			<label for="Departure Timehr">Departure Timehr:</label>
+			<input type="Time" id="Departure Timehr" name="Departure Timehr" required>&nbsp&nbsp
+			<label for="Departure Timemins">Departure Timemins:</label>&nbsp
+			<input type="Minutes" id="Departure Timemins" name="Departure Timemins" required>
+			<label for="airtime">airtime Month:</label> &nbsp
+			<input type="Month" id="airtime Month" name="airtime Month" required><br><br>
+			<label for="airtime hour">airtime hour:</label>
+			<input type="Time" id="airtime hour" name="airtime hour" required>&nbsp&nbsp
+			<label for="airtime mins">airtime mins:</label>
+			<input type="Minutes" id="airtime mins" name="airtime mins" required><br><br>
+			<button type="submit">Predict</button>
+		</form>
+	</main>
+	<footer>
+		<p>@team</p>
+	</footer>
+</body>
+</html>
